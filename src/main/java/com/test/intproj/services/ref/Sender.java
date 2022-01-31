@@ -66,7 +66,7 @@ public class Sender {
             throw new Exception("Country Name was empty or null or invalid");
         }
 
-        if(messageText.equals("") || messageText.equals("null") || !Receiver.messages.contains(messageText)){
+        if(messageText.equals("") || messageText.equals("null") || !Generator.messages.contains(messageText)){
             throw new Exception("Message was empty or null or invalid");
         }
 
